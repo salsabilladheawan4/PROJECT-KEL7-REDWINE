@@ -27,6 +27,7 @@ Data sekunder: [Red Wine Quality - Kaggle](https://www.kaggle.com/datasets/uciml
 .
 ├── PROJECT_KEL7_REDWINE.ipynb      # program analisis (statistik deskriptif, visualisasi) menggunakan Google Colab
 └── 3TIE_07_WineQuality-Red.xlsx    # dataset utama
+```
 
 ## Cara Menjalankan
 
