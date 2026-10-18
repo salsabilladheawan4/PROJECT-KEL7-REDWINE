@@ -1,4 +1,4 @@
-**# Projek Statistika dan Probabilitas - Kelompok 7 (3TIE)**
+# Projek Statistika dan Probabilitas - Kelompok 7 (3TIE)
 
 Analisis Hubungan Kadar Alkohol dan Keasaman Volatil terhadap Kualitas Anggur Merah Vinho Verde sebagai Dasar Penyusunan Aturan Fuzzy
 
@@ -27,8 +27,8 @@ Data sekunder: [Red Wine Quality - Kaggle](https://www.kaggle.com/datasets/uciml
 .
 ├── PROJECT_KEL7_REDWINE.ipynb      # program analisis (statistik deskriptif, visualisasi) menggunakan Google Colab
 └── 3TIE_07_WineQuality-Red.xlsx    # dataset utama
-
-**Cara Menjalankan**
+**
+Cara Menjalankan**
 Program ini dibuat menggunakan Google Colab. Untuk menjalankannya:
 
 Buka file PROJECT_KEL7_REDWINE.ipynb langsung di GitHub.
@@ -36,8 +36,8 @@ Buka file PROJECT_KEL7_REDWINE.ipynb langsung di GitHub.
 Klik tombol "Open in Colab" di bagian atas (jika tersedia), atau unduh file tersebut dan buka melalui Google Colab.
 
 Pastikan file dataset 3TIE_07_WineQuality-Red.xlsx diunggah ke session storage Colab sebelum menjalankan kode.
-
-**Keluaran Program**
+**
+Keluaran Program**
 Pemeriksaan data (dimensi, nilai kosong, tipe data)
 
 Statistika deskriptif: mean, median, modus, min, max, standar deviasi
