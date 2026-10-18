@@ -28,25 +28,22 @@ Data sekunder: [Red Wine Quality - Kaggle](https://www.kaggle.com/datasets/uciml
 ├── PROJECT_KEL7_REDWINE.ipynb      # program analisis (statistik deskriptif, visualisasi) menggunakan Google Colab
 └── 3TIE_07_WineQuality-Red.xlsx    # dataset utama
 
-##Cara Menjalankan**
+## Cara Menjalankan
+
 Program ini dibuat menggunakan Google Colab. Untuk menjalankannya:
 
-Buka file PROJECT_KEL7_REDWINE.ipynb langsung di GitHub.
+1. Buka file `PROJECT_KEL7_REDWINE.ipynb` langsung di GitHub.
+2. Klik tombol "Open in Colab" di bagian atas (jika tersedia), atau unduh file tersebut dan buka melalui Google Colab.
+3. Pastikan file dataset `3TIE_07_WineQuality-Red.xlsx` diunggah ke *session storage* Colab sebelum menjalankan kode.
 
-Klik tombol "Open in Colab" di bagian atas (jika tersedia), atau unduh file tersebut dan buka melalui Google Colab.
+## Keluaran Program
 
-Pastikan file dataset 3TIE_07_WineQuality-Red.xlsx diunggah ke session storage Colab sebelum menjalankan kode.
-**
-Keluaran Program**
-Pemeriksaan data (dimensi, nilai kosong, tipe data)
+* Pemeriksaan data (dimensi, nilai kosong, tipe data)
+* Statistika deskriptif: mean, median, modus, min, max, standar deviasi
+* Distribusi frekuensi skor `quality`
+* Identifikasi pencilan (outlier) menggunakan Boxplot
+* Grafik: diagram batang `quality`, histogram `alcohol`, dan histogram `pH`
 
-Statistika deskriptif: mean, median, modus, min, max, standar deviasi
+## Referensi
 
-Distribusi frekuensi skor quality
-
-Identifikasi pencilan (outlier) menggunakan Boxplot
-
-Grafik: diagram batang quality, histogram alcohol, dan histogram pH
-
-**Referensi**
-Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. Decision Support Systems, 47(4), 547-553.
+Cortez, P., Cerdeira, A., Almeida, F., Matos, T., & Reis, J. (2009). Modeling wine preferences by data mining from physicochemical properties. *Decision Support Systems*, 47(4), 547-553.
